@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: sans-serif;  
+    box-sizing: border-box;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 1em;;
+    list-style-type: none;
+  }
+  
+  ul > li > p {
+    color: #999999;
+    font-size: 1.5em;
+    transition: 0.3s all;
+  }
+  
+  ul > li > p:hover {
+    color: #444444;
+    transform: translateX(1em);
+  }
+  
+  .sidebar{
+    width: 15%;
+    min-width: 10em;
+    position: absolute;
+    top: 1em;
+    left: 0;
+    bottom: 1em;
+    border-right: 1px solid #cccccc;
+  }
